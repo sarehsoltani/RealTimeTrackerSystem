@@ -1,0 +1,28 @@
+<div class="title">
+  <div class="banner">
+    {{ title }}
+  </div>
+</div>
+<div class="mapContainer">
+  <agm-map class="map" [streetViewControl]="false"  [latitude]="mapCenterLat"
+    [longitude]="mapCenterLng" [zoom]="15"
+    [ngClass]="{'locationBorder':showLocation , 'heatMapBorder':!showLocation}"
+    (mapReady)="onMapLoad($event)">
+    <div *ngIf="showLocation">
+      <agm-marker *ngFor="let marker of mapData" [latitude]="marker.lat"
+        [longitude]="marker.lon">
+        <agm-info-window>
+          <strong>Date:  {{marker.date}}</strong><br/>
+          <strong>Speed: {{marker.speed}} Km/h</strong>
+        </agm-info-window>
+      </agm-marker>
+    </div>
+  </agm-map>
+</div>
+  <div class="buttonContainer">
+    <span class="switchLabel" style="color:yellow">Heat Map</span>
+    <ui-switch  class="switch" [(ngModel)]="showLocation" (change)="toggleLocation()"
+      size="large" switchColor="white"  defaultBgColor="yellow" color="blue"
+      [disabled]="!googleMapsLoaded"></ui-switch>
+    <span class="switchLabel" style="color:blue">Location</span>
+  </div>

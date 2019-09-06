@@ -1,0 +1,90 @@
+.locationBorder{
+  border-color:blue;
+}
+.heatMapBorder{
+  border-color:yellow;
+}
+.title{
+  width: 100%;
+  text-align: center;
+}
+.banner{
+  background-color: black;
+  color: white;
+  display: table;
+  font-size: 2em;
+  padding: 2vh 4vw 2vh 4vw;
+  margin: 2vh auto 2vh auto;
+  border-radius: 10px;
+  border: 3px  white solid;
+}
+agm-map {
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 5px;
+  border: 7px  #e6e600 solid;
+}
+.buttonContainer{
+  background-color: black;
+  color: white;
+  display: table;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 2vh;
+  border-radius: 10px;
+  padding: 0 4vw 0 4vw;
+  border: 4px  white solid;
+}
+.switch{
+  position: relative;
+  top:5px;
+}
+.switchLabel{
+  min-width: 10vw;
+  position: relative;
+  top:-10px;
+  margin-left: 1vw;
+  margin-right: 1vw;
+  font-size: 1.2em;
+  font-weight: bolder;
+}
+.map{
+  background-color: #e0e0e0;
+}
+@media only screen and (max-width: 576px) {
+  agm-map{
+    width: 93vw;
+    height: 100%;
+  }
+  .mapContainer{
+    height: 70vh;
+  }
+}
+@media only screen and (min-width: 577px)and (max-width: 768px) {
+  agm-map{
+    width: 88vw;
+    height: 100%;
+  }
+  .mapContainer{
+    height: 60vh;
+  }
+}
+@media only screen and (min-width: 769px)and (max-width: 992px) {
+  agm-map{
+    width: 83vw;
+    height: 100%;
+  }
+  .mapContainer{
+    height: 60vh;
+  }
+}
+@media only screen and (min-width: 993px) {
+  agm-map{
+    width: 65vw;
+    height: 100%;
+  }
+  .mapContainer{
+    height: 65vh;
+  }
+}

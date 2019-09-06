@@ -1,0 +1,15 @@
+@import url(font.css); /*link for enable fonts*/
+*{
+  	font-family: IRANSans !important;
+    user-select: none; /* supported by Chrome and Opera */
+    -webkit-user-select: none; /* Safari */
+    -khtml-user-select: none; /* Konqueror HTML */
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* Internet Explorer/Edge */
+}
+html{
+  height: 100vh;
+  background-image: url("./assets/images/background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
