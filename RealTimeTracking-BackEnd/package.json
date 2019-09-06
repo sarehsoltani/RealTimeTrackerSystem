@@ -1,0 +1,20 @@
+{
+  "name": "realtimetracking",
+  "version": "1.0.0",
+  "description": "backend for a tracking system ",
+  "main": "server.js",
+  "scripts": {
+    "server": "forever --minUptime=1000 --spinSleepTime=1000 -w server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "forever": "^1.0.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.5.12"
+  }
+}

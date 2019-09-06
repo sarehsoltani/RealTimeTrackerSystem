@@ -1,0 +1,6 @@
+#remove public directory
+public
+#remove dependencies
+node_modules
+#remove package.lock
+package-lock.json
