@@ -10,4 +10,4 @@ In this project, we intend to implement a system that can accurately determine t
 </p
 <p align="center">
   <img width="500" align="center" height="300" src="https://user-images.githubusercontent.com/23232055/64449151-8f858280-d0f4-11e9-9bcc-d22a6d768da8.PNG">
-</p
+</p>
