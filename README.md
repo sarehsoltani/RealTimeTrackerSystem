@@ -6,8 +6,5 @@ In this project, we intend to implement a system that can accurately determine t
   <img width="550" height="320" src="https://user-images.githubusercontent.com/23232055/59965808-357b1500-9528-11e9-9e5c-2229ae5d681d.jpg">
 </p>
 <p align="center">
-  <img width="500" height="300" src="https://ja-si.com/wp-content/uploads/2016/09/TechnologyExplaination-768x493.png">
-</p>
-<p align="center">
-  <img width="500" align="center" height="300" src="https://user-images.githubusercontent.com/23232055/64449151-8f858280-d0f4-11e9-9bcc-d22a6d768da8.PNG">
+  <img width="520" align="center" height="400" src="https://user-images.githubusercontent.com/23232055/64449151-8f858280-d0f4-11e9-9bcc-d22a6d768da8.PNG">
 </p>
